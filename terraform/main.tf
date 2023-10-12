@@ -1,12 +1,12 @@
-module "sandbox2" {
+module "sandbox3" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "vending-2-cto-org@terasky.com"
-    AccountName               = "sandbox-aft-new2"
+    AccountEmail              = "vending-3-cto-org@terasky.com"
+    AccountName               = "sandbox-aft-new3"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "vending-2-cto-org@terasky.com"
-    SSOUserFirstName          = "Sandbox2"
+    SSOUserEmail              = "vending-3-cto-org@terasky.com"
+    SSOUserFirstName          = "Sandbox3"
     SSOUserLastName           = "AFT"
   }
 
