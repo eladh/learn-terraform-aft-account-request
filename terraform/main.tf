@@ -1,12 +1,12 @@
-module "sandbox" {
+module "sandbox2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "vending-2-cto-org@terasky.com"
-    AccountName               = "sandbox-aft-new"
-    ManagedOrganizationalUnit = "Learn AFT"
+    AccountName               = "sandbox-aft-new2"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "vending-2-cto-org@terasky.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Sandbox2"
     SSOUserLastName           = "AFT"
   }
 
@@ -25,3 +25,6 @@ module "sandbox" {
 
   account_customizations_name = "sandbox"
 }
+
+
+
